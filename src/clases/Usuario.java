@@ -3,6 +3,7 @@ package clases;
 public class Usuario {
 	private String nombre;
 	private String apellidos;
+	private int identificador;
 
 	public String getNombre() {
 		return nombre;
