@@ -1,9 +1,16 @@
 package clases;
 
 public class Compras {
-	private int total;
+	private int total, id;
 	private Producto producto;
 
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	
 	public int getTotal() {
 		return total;
 	}
