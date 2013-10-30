@@ -2,6 +2,7 @@ package clases;
 
 public class Compras {
 	private int total;
+	private Producto producto;
 
 	public int getTotal() {
 		return total;
